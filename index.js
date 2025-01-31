@@ -142,19 +142,19 @@ nameInput.addEventListener('input', function(e) {
 
 function getZodiacSign(day, month) {
     const zodiacSigns = [
-        { name: 'Capricorn', start: [1, 1], end: [1, 19], image: 'zodiac-images/capricorn.png' },
-        { name: 'Aquarius', start: [1, 20], end: [2, 18], image: 'zodiac-images/aquarius.png' },
-        { name: 'Pisces', start: [2, 19], end: [3, 20], image: 'zodiac-images/pisces.png' },
-        { name: 'Aries', start: [3, 21], end: [4, 19], image: 'zodiac-images/aries.png' },
-        { name: 'Taurus', start: [4, 20], end: [5, 20], image: 'zodiac-images/taurus.png' },
-        { name: 'Gemini', start: [5, 21], end: [6, 20], image: 'zodiac-images/gemini.png' },
-        { name: 'Cancer', start: [6, 21], end: [7, 22], image: 'zodiac-images/cancer.png' },
-        { name: 'Leo', start: [7, 23], end: [8, 22], image: 'zodiac-images/leo.png' },
-        { name: 'Virgo', start: [8, 23], end: [9, 22], image: 'zodiac-images/virgo.png' },
-        { name: 'Libra', start: [9, 23], end: [10, 22], image: 'zodiac-images/libra.png' },
-        { name: 'Scorpio', start: [10, 23], end: [11, 21], image: 'zodiac-images/scorpio.png' },
-        { name: 'Sagittarius', start: [11, 22], end: [12, 21], image: 'zodiac-images/sagittarius.png' },
-        { name: 'Capricorn', start: [12, 22], end: [12, 31], image: 'zodiac-images/capricorn.png' }
+        { name: 'Capricorn', start: [1, 1], end: [1, 19], image: 'capricorn.png' },
+        { name: 'Aquarius', start: [1, 20], end: [2, 18], image: 'aquarius.png' },
+        { name: 'Pisces', start: [2, 19], end: [3, 20], image: 'pisces.png' },
+        { name: 'Aries', start: [3, 21], end: [4, 19], image: 'aries.png' },
+        { name: 'Taurus', start: [4, 20], end: [5, 20], image: 'taurus.png' },
+        { name: 'Gemini', start: [5, 21], end: [6, 20], image: 'gemini.png' },
+        { name: 'Cancer', start: [6, 21], end: [7, 22], image: 'cancer.png' },
+        { name: 'Leo', start: [7, 23], end: [8, 22], image: 'leo.png' },
+        { name: 'Virgo', start: [8, 23], end: [9, 22], image: 'virgo.png' },
+        { name: 'Libra', start: [9, 23], end: [10, 22], image: 'libra.png' },
+        { name: 'Scorpio', start: [10, 23], end: [11, 21], image: 'scorpio.png' },
+        { name: 'Sagittarius', start: [11, 22], end: [12, 21], image: 'sagittarius.png' },
+        { name: 'Capricorn', start: [12, 22], end: [12, 31], image: 'capricorn.png' }
     ];
 
     for (let sign of zodiacSigns) {
