@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="age calculator.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="—Pngtree—f logo business symbols vector_3626277.png">
+
+</head>
+<body>
+    <div id="container">
+        <div class="main">
+            <div class= "name-box">
+                <label class="nickname" for="name">Nama Panggilanmu</label>
+                <input type="text" name="name" placeholder="Masukkan nama" id="name">
+                <p class="name-alert not-show">Nama harus diisi!</p>
+            </div>
+            <form action="">           
+                
+                <div class="input_box">
+                    <label for="username">Tgl Lahir</label>
+                    <input type="number" name="username" placeholder="DD" id="date" min="01" maxlength="31" >
+                    <p class="alert not-show">isi dengan benar!!</p>
+                </div>
+                <div class="input_box">
+                    <label for="username">Bulan</label>
+                    <input type="number" name="username" placeholder="MM" id="month" max="12" min="1" >
+                    <p class="alertt not-show">max 12!!</p>
+                </div>
+                <div class="input_box">
+                    <label for="username">Tahun</label>
+                    <input type="number" name="username" placeholder="TTTT" id="year"  max="2025" >
+                    <p class="alerttt not-show">max 2025</p>
+                </div>
+                    
+            </form>   
+            <button id="button">Hitung</button>
+            <P class="your-age">umur kamu adalah:</P>
+            <p class="span-text"><span class="years">__</span> tahun</p>
+            <p class="span-text"><span class="months">__</span> bulan</p>
+            <p class="span-text"><span class="days">__</span> hari</p>
+
+            <div class="zodiac-result not-show">
+                <h3>Zodiak Kamu:</h3>
+                <div class="zodiac-display">
+                    <img src="zodiac-images/default.png" alt="zodiac sign" id="zodiac-image">
+                    <p class="zodiac-name">-</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+   
+<script src="index.js"></script>
+</body>
+</html>
